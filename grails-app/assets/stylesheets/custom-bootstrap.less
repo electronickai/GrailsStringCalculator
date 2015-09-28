@@ -1,0 +1,136 @@
+@import "bootstrap.less";
+
+@light-color: #F41439;
+@main-color: #841439;
+@dark-color: #441439;
+@background-color: #F0F0F0;
+@table-background-color:#FFF;
+
+a {
+	color: @main-color;
+	&:hover {
+		color: #000;
+		background-color: @background-color;
+	}
+}
+
+body {
+	padding-top: 70px;
+}
+
+.btn-primary {
+	background-color: @main-color;
+	border-color: @dark-color;
+	&:hover , &:active , &:focus {
+		background-color: @dark-color;
+		border-color: @dark-color;
+	}
+}
+
+.codeweek {
+	color: #FFF;
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em #333;
+}
+
+.container {
+	background-color: #FFF;
+	width: auto;
+}
+
+.dropdown-menu .form-container {
+	padding: 15px 15px 10px 15px;
+}
+
+.dropdown-menu .button-container {
+	padding: 1px 15px 10px 15px;
+}
+
+.form-control {
+	margin-bottom: 3px;
+}
+
+.modal-content .panel {
+	margin-bottom: 0px;
+}
+
+.nav {
+	> li {
+		> .logo:hover {
+			background-color: transparent;
+		}
+
+		> a:hover {
+			background-color: @background-color;
+		}
+	}
+
+	> .headline {
+		font-weight: bold;
+		padding: 5px;
+	}
+}
+
+.nav-pills li.active a {
+	background-color: @main-color;
+	&:hover , &:active , &:focus {
+		background-color: @dark-color;
+	}
+}
+
+.nav-stacked {
+	position: fixed;
+	border-radius: 15px;
+	> li + li {
+		margin: 0px;
+	}
+}
+
+.nav-tabs {
+	margin-top: 2px;
+	margin-bottom: 1px;
+	> li a {
+		color: #000;
+	}
+}
+
+.navbar-fixed-top {
+	padding: 0px 15px 0px 15px;
+}
+
+.navbar-nav li .logo {
+	padding: 0px;
+}
+
+.navbar-right {
+	margin-top: 10px;
+}
+
+.panel-body {
+	background-color: @background-color;
+}
+
+.panel-primary {
+	border-color: @dark-color;
+	> .panel-heading {
+		background-color: @main-color;
+	}
+}
+
+.text-primary {
+	color: @main-color;
+}
+
+.space-top-bottom {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table.primary {
+	tbody {
+		background-color: @table-background-color;
+	}
+}
+
+
